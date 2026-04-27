@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #282c34;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.auth button {
+  background: #61dafb;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
